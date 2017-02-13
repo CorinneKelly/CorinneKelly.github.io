@@ -1,0 +1,21 @@
+# Site settings
+title: CodeSimply
+header-img: img/home-bg.png
+email: corinnemariekelly@gmail.com
+copyright_name: CorinneKelly
+description: > # this means to ignore newlines until "baseurl:"
+  Keep Calm and Code on. Code tips and gifs.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  CorinneKelly
+learn_profile: CorinneKelly
+email_username: corinnemariekelly@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
